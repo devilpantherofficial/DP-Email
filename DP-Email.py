@@ -1,7 +1,17 @@
 import smtplib
 import os
 os.system("clear")
-print("""
+color_off="\033[0m"       # Text Reset
+black="\033[0;30m"        # Black
+red="\033[0;31m"          # Red
+green="\033[0;32m"        # Green
+yellow="\033[0;33m"       # Yellow
+blue="\033[0;34m"         # Blue
+purple="\033[0;35m"       # Purple
+cyan="\033[0;36m"         # Cyan
+white="\033[0;37m"        # White
+
+print(green+"""
 
     :~-._                                                 _.-~:
     : :.~^o._        ________---------________        _.o^~.:.:
@@ -27,12 +37,12 @@ print("""
            -~~~  _.--~~`-.~~~~~~~~~~~~~~~,-' ~~--._ ~~~-
               -~~            ~~~~~~~~~   _ Seal _  ~~-
 """)
-print("""
+print(red+"""
                 Developed By : ASHRAF UDDIN
 
-                ★★ D P E-Mail Bomber ★★
+                ★★ D P E-Mail Bomber ★★                
 """)
-
+print(yellow+"""""")
 rocx=smtplib.SMTP('smtp.gmail.com','587')
 
 rocx.ehlo()
